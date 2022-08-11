@@ -5,6 +5,9 @@ import {AntDesign} from "@expo/vector-icons";
 export default function main(){
 return(
     <View style={styles.main}>
+
+    
+
 <View style={styles.conta}>
     <Text style={styles.txtconta}>
         Conta
@@ -76,14 +79,114 @@ return(
             <Text>Investir</Text>
         </View>        
     </ScrollView>
+
+    {/* Meus cartões */}
 <View style={styles.meuscartoes}>
     <AntDesign name="creditcard" size={20} color={"black"} style={{paddingRight:10}}></AntDesign>
     <Text>Meus cartões</Text>
 </View>
     <View style={{borderBottomColor:"black", borderWidth:0.4, marginTop: 15, borderColor:"#d3d3d3"}}>
+    </View>
+    {/* Area cartão */}
+    
+    <AntDesign name="creditcard" size={20} color={"black"} style={{paddingRight:10, marginTop: 20, marginBottom :15}}></AntDesign>
+
+
+
+    {/*cartão  */}
+    <View style={styles.conta}>
+    <Text style={styles.txtconta}>
+        Cartão de crédito
+    </Text>
+    <AntDesign name="right" size={20} color="black"/>
 
     </View>
-</View>
+
+<   Text style={{color:"silver", marginTop:15}}>Fatura atual</Text>
+
+    <Text style={styles.saldo}>
+        R$ 37,546,00
+    </Text>
+
+    <Text style={{color:"silver", marginTop:15}}>Limite disponível: 1.500.340.00</Text>
+    <View style={{borderBottomColor:"black", borderWidth:0.4, marginTop: 15, borderColor:"#d3d3d3"}}/>
+     
+
+
+    {/*Emprestimo*/}
+    <AntDesign name="dropbox" size={20} color={"black"} style={{paddingRight:10, marginTop: 25, marginBottom :15}} />
+    <View style={styles.conta}>
+    <Text style={styles.txtconta}>
+        Emprestimo
+    </Text>
+    <AntDesign name="right" size={20} color="black"/>
+
+    </View>
+    <Text style={{color:"silver", marginTop:15}}>Para todos os bolsos</Text>
+    <View style={{borderBottomColor:"black", borderWidth:0.4, marginTop: 15, borderColor:"#d3d3d3", marginBottom: 20}}/>
+
+
+
+
+
+
+
+
+
+    {/*Seguro de vida*/}
+    <AntDesign name="hearto" size={20} color={"black"} style={{paddingRight:10, marginTop: 25, marginBottom :15}} />
+    <View style={styles.conta}>
+    <Text style={styles.txtconta}>
+        Seguro de vida
+    </Text>
+    <AntDesign name="right" size={20} color="black"/>
+
+    </View>
+
+<   Text style={{color:"silver", marginTop:15}}>Um Seguro completo que cabe no seu bolso</Text>
+
+
+    
+<View style={{borderBottomColor:"black", borderWidth:0.4, marginTop: 15, borderColor:"#d3d3d3", marginBottom: 20}}/>
+
+    <Text  style={styles.txtconta} >
+        Descubra mais
+    </Text>
+
+
+    <ScrollView horizontal={true}>
+    <View style={styles.descubra}>
+    <Text style={{fontSize: 15, fontWeight:"bold"}}>Convidar amigos</Text>
+    <Text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque itaque maiores reprehenderit accusantium rerum 
+    </Text>
+    <Text style={styles.btndescobrir}>Convidar</Text>
+    </View>
+
+
+
+
+    <View style={styles.descubra}>
+    <Text style={{fontSize: 15, fontWeight:"bold"}}>Conta PJ</Text>
+    <Text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque itaque maiores reprehenderit accusantium rerum 
+    </Text>
+    <Text style={styles.btndescobrir}>Saiba mais</Text>
+    </View>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+    </View>
+
 
 
     )

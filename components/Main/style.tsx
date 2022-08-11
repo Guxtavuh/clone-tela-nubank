@@ -44,6 +44,23 @@ meuscartoes:{
     borderRadius:10
 
 
+},
+descubra:{
+    backgroundColor:"silver",
+    borderRadius:20,
+    padding:20,
+    margin:10,
+    width:300
+},
+btndescobrir:{
+    backgroundColor:"#5f249f",
+    padding:10,
+    color: "#fff",
+    borderRadius:100,
+    textAlign:"center",
+    marginTop:20,
+    width:100
+
 }
 
     }

@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 export const styles= StyleSheet.create({
 
 Header:{
-    height:"50%",
+    height:200,
     backgroundColor: "#5f249f",
     padding:"2%"
     },
@@ -23,7 +23,6 @@ iconuser:{
     borderRadius:100
 },
 nomecliente:{
-
     color:"#fff",
     fontSize:20,
     padding:20
